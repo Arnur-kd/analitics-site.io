@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="product-page">
+  <img src="{{ url_for('static', filename='images/' + product.image) }}" alt="{{ product.name }}">
+  <div class="product-info">
+    <h2>{{ product.name }}</h2>
+    <p class="desc">{{ product.description }}</p>
+    <p class="price">{{ product.price }}₸</p>
+    <a class="btn" href="#" onclick="alert('Добавлено в корзину (демо)')">Добавить в корзину</a>
+  </div>
+</div>
+{% endblock %}

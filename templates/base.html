@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Flask O-Shop</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <header class="header">
+    <div class="container" style="display:flex; align-items:center;">
+      <a class="brand" href="/">Flask O-Shop</a>
+      <nav class="menu nav" style="margin-left:auto;">
+        <a href="/">Главная</a>
+        <a href="/top">Топ</a>
+        <a href="#">Категории</a>
+        <a href="#">Корзина</a>
+        <a href="#">О нас</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    {% block content %}{% endblock %}
+  </main>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Популярные товары</h2>
+<div class="grid">
+  {% for p in products %}
+  <div class="card">
+    <a href="/product/{{ p.id }}"><img src="{{ url_for('static', filename='images/' + p.image) }}" alt="{{ p.name }}"></a>
+    <h3><a href="/product/{{ p.id }}">{{ p.name }}</a></h3>
+    <p class="desc">{{ p.description }}</p>
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <div class="price">{{ p.price }}₸</div>
+      <a class="btn" href="/product/{{ p.id }}">Подробнее</a>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}
