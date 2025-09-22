@@ -1,0 +1,142 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Электроника"
+    },
+    {
+      "id": 2,
+      "name": "Книги"
+    },
+    {
+      "id": 3,
+      "name": "Одежда"
+    },
+    {
+      "id": 4,
+      "name": "Продукты питания"
+    },
+    {
+      "id": 5,
+      "name": "Спорттовары"
+    },
+    {
+      "id": 6,
+      "name": "Игрушки"
+    },
+    {
+      "id": 7,
+      "name": "Бытовая техника"
+    },
+    {
+      "id": 8,
+      "name": "Косметика"
+    },
+    {
+      "id": 9,
+      "name": "Товары для дома"
+    },
+    {
+      "id": 10,
+      "name": "Автотовары"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Смартфон",
+      "category_id": 1,
+      "price": 50000,
+      "image": "smartphone.svg",
+      "description": "Современный смартфон с большим экраном."
+    },
+    {
+      "id": 2,
+      "name": "Ноутбук",
+      "category_id": 1,
+      "price": 80000,
+      "image": "laptop.svg",
+      "description": "Мощный ноутбук для работы и игр."
+    },
+    {
+      "id": 3,
+      "name": "Электронная книга",
+      "category_id": 2,
+      "price": 12000,
+      "image": "ebook.svg",
+      "description": "Компактная электронная книга."
+    },
+    {
+      "id": 4,
+      "name": "Худи",
+      "category_id": 3,
+      "price": 3000,
+      "image": "hoodie.svg",
+      "description": "Тёплая и удобная худи."
+    },
+    {
+      "id": 5,
+      "name": "Кроссовки",
+      "category_id": 5,
+      "price": 6000,
+      "image": "sneakers.svg",
+      "description": "Лёгкие кроссовки для спорта."
+    },
+    {
+      "id": 6,
+      "name": "Мороженое",
+      "category_id": 4,
+      "price": 150,
+      "image": "icecream.svg",
+      "description": "Вкусное мороженое."
+    },
+    {
+      "id": 7,
+      "name": "Настольная игра",
+      "category_id": 6,
+      "price": 2500,
+      "image": "boardgame.svg",
+      "description": "Весёлая настольная игра для семьи."
+    },
+    {
+      "id": 8,
+      "name": "Миксер",
+      "category_id": 7,
+      "price": 4500,
+      "image": "mixer.svg",
+      "description": "Кухонный миксер для выпечки."
+    },
+    {
+      "id": 9,
+      "name": "Крем для лица",
+      "category_id": 8,
+      "price": 1800,
+      "image": "cream.svg",
+      "description": "Увлажняющий крем для кожи."
+    },
+    {
+      "id": 10,
+      "name": "Шампунь",
+      "category_id": 8,
+      "price": 500,
+      "image": "shampoo.svg",
+      "description": "Шампунь для ежедневного ухода."
+    },
+    {
+      "id": 11,
+      "name": "Термос",
+      "category_id": 9,
+      "price": 1500,
+      "image": "thermos.svg",
+      "description": "Термос для горячих и холодных напитков."
+    },
+    {
+      "id": 12,
+      "name": "Автомобильный компрессор",
+      "category_id": 10,
+      "price": 3000,
+      "image": "compressor.svg",
+      "description": "Компрессор для шин автомобиля."
+    }
+  ]
+}
